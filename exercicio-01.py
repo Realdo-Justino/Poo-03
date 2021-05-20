@@ -11,9 +11,9 @@ class aluno(pessoa):
         self.curso=curso
         self.soma=nota1+nota2+nota3
         self.media=(self.soma)/3
-        if(self.media>7):
+        if(self.media>=7):
             self.resultado="Aprovado"
-        elif(self.media>5):
+        elif(self.media>=5):
             self.resultado="Recuperação"
         else:
             self.resultado="Reprovado"
